@@ -1,0 +1,2 @@
+rootProject.name = "HackeRankDemo"
+include ':app'
