@@ -12,9 +12,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-       // question1()
-       // question2()
-      //  question3()
+        question1()
+        question2()
+        question3()
         question4()
     }
 
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         list.add("orangeShoes")
         list.add("blackPants")
         list.add("blackPants")
-        //print(FindFeaturedProduct.findMax(list))
+        print(FindFeaturedProduct.findMax(list))
     }
 
     private fun question2() {

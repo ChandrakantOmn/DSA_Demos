@@ -84,36 +84,4 @@ object MaxiSizeSquare {
         return maxOfS
     }
 
-    // Just for testing purpose
-    fun testDummyData() {
-        val matrix = arrayOf(
-            intArrayOf(0, 1, 1, 0, 1),
-            intArrayOf(1, 1, 0, 1, 0),
-            intArrayOf(0, 1, 1, 1, 0),
-            intArrayOf(1, 1, 1, 1, 0),
-            intArrayOf(1, 1, 1, 1, 1),
-            intArrayOf(0, 0, 0, 0, 0)
-        )
-        //3
-
-        val matrix2 = arrayOf(
-            intArrayOf(0, 1, 1, 0, 1),
-            intArrayOf(1, 1, 1, 1, 0),
-            intArrayOf(1, 1, 1, 1, 0),
-            intArrayOf(1, 1, 1, 1, 0),
-            intArrayOf(1, 1, 1, 1, 1),
-            intArrayOf(0, 0, 0, 0, 0)
-        )
-        //4
-
-        val matrix3 = arrayOf(
-            intArrayOf(1, 1, 1, 1, 1),
-            intArrayOf(1, 1, 1, 0, 0),
-            intArrayOf(1, 1, 1, 0, 0),
-            intArrayOf(1, 1, 1, 0, 0),
-            intArrayOf(1, 1, 1, 1, 1)
-        )
-        //3
-    }
-
 }
